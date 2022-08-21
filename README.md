@@ -9,7 +9,7 @@ The various phases of the project are described below:
 Converting the whole image area into embeddings creates unnecessary features which are not related to person’s identity/face and adds to the complexty. Thus, we only
 detect the face regions from images and keep only them for further embeddings calculations.
 
-Dual Shot Face Detector(DSFD) is presently the state-of-the-art face-detector. Here, we use the pre- trained DSFD Model to locate the face regions and 
+Dual Shot Face Detector(DSFD) is presently the state-of-the-art face-detector. Here, we use the pre - trained DSFD Model to locate the face regions and 
 return the respective bounding boxes.
 
 ### Extracting Embeddings
